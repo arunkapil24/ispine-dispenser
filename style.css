@@ -22,6 +22,20 @@ html,body{
 
 .grid {
     display: grid;
-    grid-row-gap: 50px;
-    grid-column-gap: 50px;
+    padding:30px;
+}
+
+.productgrid {
+    display: grid;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.productborder {
+    border: 2px solid #ddd;
+    border-radius: 2px;
+    padding: 10px;
+    width: 50px; 
 }
