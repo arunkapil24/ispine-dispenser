@@ -39,3 +39,12 @@ html,body{
     padding: 10px;
     width: 50px; 
 }
+
+#testimonials{
+     background: url("images/web\ final-03.png")no-repeat center fixed;
+    display: table;
+    height: 25%;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+}
