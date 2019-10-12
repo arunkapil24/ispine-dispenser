@@ -170,7 +170,7 @@ h2.title span::after {
 
 .card {
     transition: 0.3s;
-    width: 100%;
+    width: 100;
     border-radius: 6px;
     margin-left: auto;
     margin-right: auto;
@@ -206,7 +206,7 @@ h2.title span::after {
 #uniquness {
     background: #f7f7f7;
     width: 100%;
-    min-height: 100%;
+    min-height: auto;
     padding: 20px;
 }
 
@@ -477,7 +477,7 @@ h2.title span::after {
         margin-top: 50px;
     }
     #uniquness {
-        height: auto;
+        height: auto !important;
         width: auto;
     }
     .uniquness {
@@ -507,9 +507,56 @@ h2.title span::after {
 }
 
 @media only screen and (max-width:770px) {
+    #uniquness {
+        padding-bottom: 30px;
+    }
     .uniquness {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .uniquness .title {
+        padding-top: 30px;
+    }
+    .grid {
+        padding: 10px;
+        padding-top: 30px;
+    }
+    .grid .card {
+        transition: 0.3s;
+        width: 90%;
+        border: none;
+    }
+    .card-text3 {
+        font-size: 18px;
+    }
+    #wepromise {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .wepromise {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .title {
         margin-top: 0px;
-        margin-bottom: 30px;
+    }
+    .access {
+        margin-top: 15px;
+    }
+    .card {
+        transition: 0.3s;
+        width: 80%;
+        border-radius: 6px;
+        margin-left: auto;
+        margin-right: auto;
+        border: none;
+        padding: 15px
+    }
+    .card-text1 {
+        font-size: 22px;
+    }
+    .card-text2 {
+        font-size: 18px;
     }
 }
 
